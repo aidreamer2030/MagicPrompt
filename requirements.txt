@@ -1,5 +1,5 @@
 transformers
 torch
 transformers[sentencepiece]
-gradio
+gradio==3.19.0
 omegaconf
