@@ -187,4 +187,4 @@ with gr.Blocks(analytics_enabled=0, title="MagicPrompt Generator") as magicpromp
     )
 
 if __name__ == "__main__":
-    magicprompt.queue(concurrency_count=20).launch(server_name="0.0.0.0", server_port=8090, show_api=False, debug=True)
+    magicprompt.queue(concurrency_count=20).launch(server_name="0.0.0.0", server_port=8090, show_api=False, debug=True, share=True)
